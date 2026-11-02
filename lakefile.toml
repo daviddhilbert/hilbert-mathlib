@@ -14,9 +14,3 @@ rev = "master"
 name = "HilbertMathlib"
 srcDir = "."
 roots = ["HilbertMathlib"]
-
-[[lean_lib]]
-name = "Hilbert2021Convergence"
-srcDir = "."
-roots = ["Papers.Hilbert2021Convergence"]
-
