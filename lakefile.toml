@@ -1,0 +1,22 @@
+name = "hilbert-mathlib"
+version = "0.1.0"
+description = "Personal Mathlib for David Hilbert — shared background for formalizations"
+keywords = ["math", "formalization"]
+license = "MIT"
+authors = ["David Hilbert"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "master"
+
+[[lean_lib]]
+name = "HilbertMathlib"
+srcDir = "."
+roots = ["HilbertMathlib"]
+
+[[lean_lib]]
+name = "Hilbert2021Convergence"
+srcDir = "."
+roots = ["Papers.Hilbert2021Convergence"]
+
