@@ -5,8 +5,9 @@
   ACVF-QE, special-transformations, integration-in-ACVF, Fubini theorems or
   diamond-integral. Preserve an acyclic package graph.
 - Use the pinned Lean, Mathlib and Lake manifest. Preserve unrelated edits.
-- Review mathematical ownership before moving modules. The current ownership
-  proposal is not migration approval; the author requested that review first.
+- Review mathematical ownership before moving modules. The author approved
+  the November 16 inventory of 106 shared modules and downstream migration;
+  changes beyond that scope still require an ownership review.
 - Search existing libraries before rebuilding prerequisites. Preserve source
   commits, mathematical hypotheses, provenance and license notices.
 - Require successful source compilation, full headline-type inspection and

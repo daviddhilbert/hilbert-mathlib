@@ -39,9 +39,9 @@ separate the generic declarations first and prove any required interface
 correspondence. Similar names or mathematical roles do not establish equality
 of two APIs, parameter conventions or hypotheses.
 
-The November 16 cross-repository ownership inventory is a proposal. Approval
-of this workflow does not approve moving the proposed mathematical modules.
-Respect the author's instruction to review ownership before any such moves.
+The author approved the November 16 cross-repository inventory of 106 shared
+modules after reviewing ownership. SOURCE-MANIFEST.json records their exact
+origins. Review ownership separately for additional extractions.
 
 ## 3. Survey reuse and preserve provenance
 
@@ -94,11 +94,12 @@ headline types, principles and relevant diagnostics. Cached results require
 matching source and dependency fingerprints. Clearly distinguish fresh source
 compilation, kernel replay, retained historical evidence and unverified drafts.
 
-The initial GitHub Actions workflow checks the pinned library build. It does
-not yet automate a declaration-by-declaration type/principle inventory.
-Add the relevant signature and principle audits when mathematical modules are
-introduced; do not describe the initial skeleton's green build as proof
-coverage for future extractions.
+GitHub Actions checks the pinned library build, followed by
+`python3 verification/verify.py`. This checks the source inventory and
+fingerprints, compares all inventoried public signatures with the checked
+pre-extraction baseline, and checks their exact principle inventories.
+Extend the audit when adding mathematical declarations; update an expected
+signature only after reviewing the full mathematical statement.
 
 ## 6. Check downstream consumers before retiring copies
 

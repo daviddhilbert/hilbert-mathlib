@@ -9,7 +9,15 @@ This repository is **foundation only**. Paper-specific formalizations live in th
 ```
 HilbertMathlib/
   Foundation/        — reusable definitions and lemmas shared across papers
-    Basic.lean
+    ModelTheory/      — elementary maps and model-theoretic constructions
+    Definability/     — arbitrary-language definable spaces and maps
+    Grothendieck/      — positive presentations and group completion
+    Grading/          — gradings and localization
+    Algebra/          — tensors and quotient constructions
+    FiniteCoordinates/ — integer monomials and finite coordinates
+    Euler/            — finite-jump functions and ordered Euler calculus
+    Coaction/         — polynomial coactions and graded maps
+    Series/           — Hahn, Laurent, Puiseux and Kummer algebra
   Foundation.lean    — re-exports Foundation
 HilbertMathlib.lean  — root of the personal mathlib
 ```
@@ -25,11 +33,15 @@ The shared baseline is Lean 4.35.0 with Mathlib pinned at
 `56a005855ea17e0b0958f73ec801ae140b0a1679`. The Lake manifest records the
 transitive dependency revisions. [Lean build](.github/workflows/lean.yml)
 checks the library on pushes, pull requests and manual runs, saving compiled
-files after the build.
+files after the build. It then runs `python3 verification/verify.py`, comparing
+the 1,037 inventoried public declarations with their pre-extraction full types
+and principle inventories. Audit evidence is uploaded with each run.
 
 See [WORKFLOW.md](WORKFLOW.md) for proof checks, module ownership and downstream
-migration rules. No mathematical modules have been extracted into the current
-foundation skeleton.
+migration rules. The first extraction contains the 106 modules approved in
+the November 16 ownership review. [SOURCE-MANIFEST.json](SOURCE-MANIFEST.json)
+records their exact source commits, original paths, source fingerprints and
+new providers. Public declaration namespaces remain unchanged.
 
 ## Using from a paper repository
 
@@ -39,7 +51,7 @@ In the paper's `lakefile.toml`:
 [[require]]
 name = "hilbert-mathlib"
 git = "https://github.com/daviddhilbert/hilbert-mathlib.git"
-rev = "main"
+rev = "<checked hilbert-mathlib commit>"
 ```
 
 Then `import HilbertMathlib` in the paper's Lean files.
@@ -58,4 +70,8 @@ Put it under `HilbertMathlib/Foundation/` only if it is independent of any parti
 
 ## License
 
-MIT — see [LICENSE](LICENSE)
+The repository's original material is MIT — see [LICENSE](LICENSE).
+Extracted files retain their original notices and applicable licenses.
+The Grothendieck-ring and Newton–Puiseux adaptations are Apache 2.0;
+their license texts and the ACVF-QE source license are retained under
+[verification/third-party](verification/third-party).

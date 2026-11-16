@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "modules": 106,
+  "declarations": 1037,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "check": "Source fingerprints, unchanged full signatures, exact axiom inventories",
+  "build": "lake build HilbertMathlib: PASS (9155 jobs)",
+  "consumer_status": "Old proof bodies remain until dependent builds pass."
+}

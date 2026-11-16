@@ -34,3 +34,17 @@ jobs:
           lint: 'false'
           use-mathlib-cache: 'true'
           use-github-cache: 'true'
+
+      - name: Check public signatures, source provenance and axioms
+        run: python3 verification/verify.py
+
+      - name: Upload declaration audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shared-foundation-verification
+          path: |
+            .scratch/PublicSignatures.lean
+            .scratch/public-signatures.txt
+            .scratch/verification-status.json
+          if-no-files-found: ignore
