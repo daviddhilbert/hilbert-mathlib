@@ -21,6 +21,16 @@ lake update          # fetch Mathlib (first time only)
 lake build
 ```
 
+The shared baseline is Lean 4.35.0 with Mathlib pinned at
+`56a005855ea17e0b0958f73ec801ae140b0a1679`. The Lake manifest records the
+transitive dependency revisions. [Lean build](.github/workflows/lean.yml)
+checks the library on pushes, pull requests and manual runs, saving compiled
+files after the build.
+
+See [WORKFLOW.md](WORKFLOW.md) for proof checks, module ownership and downstream
+migration rules. No mathematical modules have been extracted into the current
+foundation skeleton.
+
 ## Using from a paper repository
 
 In the paper's `lakefile.toml`:
