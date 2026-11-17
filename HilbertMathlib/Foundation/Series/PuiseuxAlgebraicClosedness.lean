@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%205/PuiseuxAlgebraicClosedness.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import HilbertMathlib.Foundation.Series.NewtonPuiseuxAlgClosed
-import HilbertMathlib.Foundation.Series.PuiseuxField
+public import HilbertMathlib.Foundation.Series.NewtonPuiseuxAlgClosed
+public import HilbertMathlib.Foundation.Series.PuiseuxField
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! The local concrete field is exactly the bounded-denominator Hahn
 subfield in the checked Newton–Puiseux proof, not an abstract closure.

@@ -1,9 +1,15 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/special-transformations/blob/25852c85a31c67069b148bd31348128318303510/Section4/MapParameters.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import HilbertMathlib.Foundation.Definability.FiniteMaps
+public import HilbertMathlib.Foundation.Definability.FiniteMaps
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 open Classical FirstOrder FirstOrder.Language
 

@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/integration-in-ACVF/blob/2c29c5b848f9077274774125222bba563cdc11b4/section%207/Integration7/SemiringGroupificationDifferences.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import HilbertMathlib.Foundation.Grothendieck.SemiringGroupification
-import Mathlib.Tactic.NoncommRing
+public import HilbertMathlib.Foundation.Grothendieck.SemiringGroupification
+public import Mathlib.Tactic.NoncommRing
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 noncomputable section
 namespace IntegrationInACVF.Section7
 universe u v

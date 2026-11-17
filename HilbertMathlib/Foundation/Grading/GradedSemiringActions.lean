@@ -1,11 +1,17 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/integration-in-ACVF/blob/2c29c5b848f9077274774125222bba563cdc11b4/section%207/Integration7/GradedSemiringActions.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.Algebra.DirectSum.Ring
-import Mathlib.Algebra.Group.Hom.End
-import Mathlib.Algebra.Module.Defs
+public import Mathlib.Algebra.DirectSum.Ring
+public import Mathlib.Algebra.Group.Hom.End
+public import Mathlib.Algebra.Module.Defs
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Assemble a graded semiring action from genuine biadditive
 homogeneous actions and their unit and associativity proofs. -/

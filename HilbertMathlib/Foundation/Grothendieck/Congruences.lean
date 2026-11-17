@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/special-transformations/blob/25852c85a31c67069b148bd31348128318303510/Section4/Congruences.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.RingTheory.Congruence.Defs
-import Mathlib.Algebra.Ring.Subsemiring.Basic
+public import Mathlib.RingTheory.Congruence.Defs
+public import Mathlib.Algebra.Ring.Subsemiring.Basic
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-!
 # The congruence criterion in Remark 4.23

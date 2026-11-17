@@ -1,12 +1,18 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/special-transformations/blob/25852c85a31c67069b148bd31348128318303510/Section4/PositiveAdditivePresentation.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.Algebra.BigOperators.Finsupp.Basic
-import Mathlib.Algebra.Group.Nat.Hom
-import Mathlib.Data.Finsupp.Ext
-import Mathlib.GroupTheory.Congruence.Hom
+public import Mathlib.Algebra.BigOperators.Finsupp.Basic
+public import Mathlib.Algebra.Group.Nat.Hom
+public import Mathlib.Data.Finsupp.Ext
+public import Mathlib.GroupTheory.Congruence.Hom
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-!+# Positive additive scissor presentations
 

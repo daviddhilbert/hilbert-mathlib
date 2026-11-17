@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/ACVF-QE/blob/478dd4bdd19c1fc1b75750b137f73d1eac5c4dfa/Proofs/CommutativeGroupAmalgam.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.Algebra.Group.Subgroup.Basic
-import Mathlib.Algebra.Group.Prod
+public import Mathlib.Algebra.Group.Subgroup.Basic
+public import Mathlib.Algebra.Group.Prod
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Glue two compatible homomorphisms from subgroups of a commutative group.
 The construction descends Mathlib's product homomorphism through the existing

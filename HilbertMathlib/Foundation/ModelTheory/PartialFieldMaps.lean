@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/ACVF-QE/blob/478dd4bdd19c1fc1b75750b137f73d1eac5c4dfa/Proofs/PartialFieldMaps.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.Algebra.Field.Subfield.Basic
-import Mathlib.Order.Zorn
+public import Mathlib.Algebra.Field.Subfield.Basic
+public import Mathlib.Order.Zorn
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Directed unions of partial field maps, implemented by their graphs.
 This gives the maximal-map construction used to iterate local adjoining steps.

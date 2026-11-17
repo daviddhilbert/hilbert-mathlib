@@ -1,14 +1,20 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/ACVF-QE/blob/478dd4bdd19c1fc1b75750b137f73d1eac5c4dfa/Proofs/ResidueTransportCore.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.RingTheory.Valuation.ValuationSubring
-import Mathlib.GroupTheory.QuotientGroup.Basic
-import Mathlib.Data.Finset.Max
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.Ring
-import Mathlib.Tactic.Push
+public import Mathlib.RingTheory.Valuation.ValuationSubring
+public import Mathlib.GroupTheory.QuotientGroup.Basic
+public import Mathlib.Data.Finset.Max
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.Ring
+public import Mathlib.Tactic.Push
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-!
 Minimal support for ResidueTranscendentalTransport.

@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/special-transformations/blob/25852c85a31c67069b148bd31348128318303510/Section4/UnionMapLaws.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import HilbertMathlib.Foundation.Definability.FiniteGluing
-import HilbertMathlib.Foundation.Definability.DefinableCategory
+public import HilbertMathlib.Foundation.Definability.FiniteGluing
+public import HilbertMathlib.Foundation.Definability.DefinableCategory
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 open Classical FirstOrder FirstOrder.Language
 

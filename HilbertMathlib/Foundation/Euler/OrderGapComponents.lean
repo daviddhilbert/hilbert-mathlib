@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%204/OrderGapComponents.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import HilbertMathlib.Foundation.Euler.FiniteOrderComponents
-import Mathlib.Data.Set.Basic
+public import HilbertMathlib.Foundation.Euler.FiniteOrderComponents
+public import Mathlib.Data.Set.Basic
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Distinct boundary-free gaps with endpoints in the same ordered set
 are disjoint. Missing endpoints describe rays and the whole line. The

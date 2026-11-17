@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/integration-in-ACVF/blob/2c29c5b848f9077274774125222bba563cdc11b4/section%206/IntegrationSection6/FiniteCoordinateDeletion.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.Data.Fin.Tuple.Basic
-import Mathlib.Data.Set.Finite.Lattice
+public import Mathlib.Data.Fin.Tuple.Basic
+public import Mathlib.Data.Set.Finite.Lattice
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Deleting a coordinate preserves finite fibres when the image has
 finite slices in that coordinate. This is the finite-category ingredient

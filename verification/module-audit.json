@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "modules": 106,
+  "declarations": 1037,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "check": "Source fingerprints, unchanged full signatures, exact axiom inventories",
+  "baseline_revision": "a26c12d71f83356ad48442b782be67ff01bd3f18",
+  "build": "lake build HilbertMathlib",
+  "build_exit_code": 0,
+  "source_body_audit": "verification/module-migration.json",
+  "public_type_audit": "python3 verification/verify.py",
+  "audit_exit_code": 0,
+  "audit_log_sha256": "9e6ee0c75df031f3270809589058e6c198e347c37a40986e5a289ce05c6622c6",
+  "scope": "Lean module visibility/import compatibility; unchanged mathematical source bodies, public types and axiom inventories."
+}

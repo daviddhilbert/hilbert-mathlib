@@ -47,7 +47,7 @@ def main():
     for item in modules:
         path = ROOT / item["target_path"]
         source = path.read_text()
-        check(hashlib.sha256(source.encode()).hexdigest() == item["extracted_sha256"],
+        check(hashlib.sha256(source.encode()).hexdigest() == item.get("module_sha256", item["extracted_sha256"]),
               "Source fingerprint changed: " + str(path.relative_to(ROOT)))
         names.extend(x["name"] for x in declarations(source))
         masked = code_only(source)

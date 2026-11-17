@@ -1,12 +1,18 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%205/LaurentKummerActions.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import HilbertMathlib.Foundation.Series.FiniteKummer
-import HilbertMathlib.Foundation.Series.LaurentKummerBasis
-import Mathlib.RingTheory.RootsOfUnity.AlgebraicallyClosed
-import Mathlib.Analysis.Complex.Polynomial.Basic
+public import HilbertMathlib.Foundation.Series.FiniteKummer
+public import HilbertMathlib.Foundation.Series.LaurentKummerBasis
+public import Mathlib.RingTheory.RootsOfUnity.AlgebraicallyClosed
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! The finite Kummer classification specialized to actual Laurent series.
 The basis, degree, generation and irreducibility have been proved in

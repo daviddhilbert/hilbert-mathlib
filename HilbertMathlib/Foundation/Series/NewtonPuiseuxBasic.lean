@@ -1,3 +1,5 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%205/NewtonPuiseuxBasic.lean
 Original notices and declaration namespaces are retained.
@@ -11,9 +13,13 @@ Local adaptation: imports and module wrappers for the Section 5 pinned environme
 Source: https://github.com/deancureton/Puiseux (retrieved 2026-11-14).
 -/
 
-import Mathlib.RingTheory.LaurentSeries
-import Mathlib.RingTheory.HahnSeries.Multiplication
-import Mathlib.Algebra.Field.Subfield.Basic
+public import Mathlib.RingTheory.LaurentSeries
+public import Mathlib.RingTheory.HahnSeries.Multiplication
+public import Mathlib.Algebra.Field.Subfield.Basic
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-!
 # The field of Puiseux series

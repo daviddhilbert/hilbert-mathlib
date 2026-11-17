@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%204/CoactionQuotientEquivalence.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import HilbertMathlib.Foundation.Algebra.CoactionGradedMaps
-import Mathlib.RingTheory.Ideal.Quotient.Operations
+public import HilbertMathlib.Foundation.Algebra.CoactionGradedMaps
+public import Mathlib.RingTheory.Ideal.Quotient.Operations
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! A degree-preserving ring equivalence induces a degree-preserving
 quotient equivalence for matching homogeneous ideals, in both directions. -/

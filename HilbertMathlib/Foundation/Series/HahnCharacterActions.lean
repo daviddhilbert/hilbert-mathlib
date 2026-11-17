@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%205/HahnCharacterActions.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.RingTheory.HahnSeries.Multiplication
-import Mathlib.Tactic.Ring
+public import Mathlib.RingTheory.HahnSeries.Multiplication
+public import Mathlib.Tactic.Ring
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Coefficient characters act by actual ring automorphisms of Hahn series.
 This construction supplies the common action before restricting to Puiseux

@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/integration-in-ACVF/blob/2c29c5b848f9077274774125222bba563cdc11b4/section%206/IntegrationSection6/FiniteTupleProjectionBound.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.Data.Set.Card
-import Mathlib.SetTheory.Cardinal.Finite
+public import Mathlib.Data.Set.Card
+public import Mathlib.SetTheory.Cardinal.Finite
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! A finite tuple family is bounded by the product of its finite
 coordinate images. This reduces tuple-fibre compactness to scalar rows. -/

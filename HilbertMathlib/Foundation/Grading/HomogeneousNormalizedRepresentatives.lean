@@ -1,9 +1,15 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/integration-in-ACVF/blob/2c29c5b848f9077274774125222bba563cdc11b4/section%207/Integration7/HomogeneousNormalizedRepresentatives.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.Algebra.DirectSum.Ring
+public import Mathlib.Algebra.DirectSum.Ring
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! A degree-one point mapping to one homogenizes every finite graded
 sum. The argument uses no commutativity of the graded semiring. -/

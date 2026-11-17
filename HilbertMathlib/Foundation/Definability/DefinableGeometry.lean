@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/special-transformations/blob/25852c85a31c67069b148bd31348128318303510/Section4/DefinableGeometry.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.ModelTheory.Definability
-import Mathlib.Data.Finite.Sum
+public import Mathlib.ModelTheory.Definability
+public import Mathlib.Data.Finite.Sum
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-!
 # Definable sets and maps on real and imaginary presentations

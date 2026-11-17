@@ -1,11 +1,17 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%205/GammaQEPositiveLaw.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.Algebra.Group.Basic
-import Mathlib.Tactic.Group
-import Lean.Elab.Tactic.Omega
+public import Mathlib.Algebra.Group.Basic
+public import Mathlib.Tactic.Group
+public import Lean.Elab.Tactic.Omega
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Positive natural denominators for Laurent monomial equalities. -/
 set_option autoImplicit false

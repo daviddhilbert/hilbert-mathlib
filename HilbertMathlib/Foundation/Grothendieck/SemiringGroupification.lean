@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/integration-in-ACVF/blob/2c29c5b848f9077274774125222bba563cdc11b4/section%207/Integration7/SemiringGroupification.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.RingTheory.FreeRing
-import Mathlib.RingTheory.Congruence.Hom
+public import Mathlib.RingTheory.FreeRing
+public import Mathlib.RingTheory.Congruence.Hom
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! The universal ring obtained from a possibly noncommutative semiring.
 This reconstructs a missing prerequisite of the recovered Section 7 sources.

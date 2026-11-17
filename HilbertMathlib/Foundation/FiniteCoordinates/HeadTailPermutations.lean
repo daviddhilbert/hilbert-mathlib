@@ -1,9 +1,15 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/integration-in-ACVF/blob/2c29c5b848f9077274774125222bba563cdc11b4/section%206/IntegrationSection6/HeadTailPermutations.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.GroupTheory.Perm.Fin
+public import Mathlib.GroupTheory.Perm.Fin
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Separate the common first coordinate of two contraction orders. -/
 namespace IntegrationInACVF.Section6

@@ -1,14 +1,20 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%205/LaurentKummerBasis.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.RingTheory.LaurentSeries
-import Mathlib.Tactic
-import Mathlib.LinearAlgebra.StdBasis
-import Mathlib.LinearAlgebra.Finsupp.LinearCombination
-import Mathlib.RingTheory.PowerBasis
-import Mathlib.Algebra.Field.Subfield.Basic
+public import Mathlib.RingTheory.LaurentSeries
+public import Mathlib.Tactic
+public import Mathlib.LinearAlgebra.StdBasis
+public import Mathlib.LinearAlgebra.Finsupp.LinearCombination
+public import Mathlib.RingTheory.PowerBasis
+public import Mathlib.Algebra.Field.Subfield.Basic
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Grouping Laurent exponents modulo a positive integer. These are actual
 Hahn/Laurent series, not a postulated finite-dimensional extension. -/

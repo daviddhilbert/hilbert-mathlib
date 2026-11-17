@@ -1,11 +1,17 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/integration-in-ACVF/blob/2c29c5b848f9077274774125222bba563cdc11b4/section%206/IntegrationSection6/GradedCongruence.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.Algebra.DirectSum.Ring
-import Mathlib.RingTheory.Congruence.Basic
-import Mathlib.GroupTheory.Congruence.Basic
+public import Mathlib.Algebra.DirectSum.Ring
+public import Mathlib.RingTheory.Congruence.Basic
+public import Mathlib.GroupTheory.Congruence.Basic
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Componentwise additive congruences compatible with heterogeneous products
 form a congruence on the actual graded direct sum. -/

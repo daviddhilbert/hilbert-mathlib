@@ -1,11 +1,17 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/ACVF-QE/blob/478dd4bdd19c1fc1b75750b137f73d1eac5c4dfa/Proofs/QESaturatedBackAndForth.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.ModelTheory.PartialEquiv
-import Mathlib.Order.Zorn
-import Mathlib.Tactic.SplitIfs
+public import Mathlib.ModelTheory.PartialEquiv
+public import Mathlib.Order.Zorn
+public import Mathlib.Tactic.SplitIfs
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Generic chain unions, Zorn exhaustion, and atomic-type packaging extracted
 from QE/BackAndForth.lean. Proofs are unchanged; the namespace is isolated.

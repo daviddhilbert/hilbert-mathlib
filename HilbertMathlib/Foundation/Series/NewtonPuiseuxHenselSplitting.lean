@@ -1,3 +1,5 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%205/NewtonPuiseuxHenselSplitting.lean
 Original notices and declaration namespaces are retained.
@@ -11,8 +13,12 @@ Local adaptation: imports and module wrappers for the Section 5 pinned environme
 Source: https://github.com/deancureton/Puiseux (retrieved 2026-11-14).
 -/
 
-import Mathlib.RingTheory.PowerSeries.WeierstrassPreparation
-import Mathlib.RingTheory.AdicCompletion.Completeness
+public import Mathlib.RingTheory.PowerSeries.WeierstrassPreparation
+public import Mathlib.RingTheory.AdicCompletion.Completeness
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-!
 

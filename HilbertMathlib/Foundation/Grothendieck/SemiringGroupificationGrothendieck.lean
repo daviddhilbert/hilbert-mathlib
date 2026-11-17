@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/integration-in-ACVF/blob/2c29c5b848f9077274774125222bba563cdc11b4/section%207/Integration7/SemiringGroupificationGrothendieck.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import HilbertMathlib.Foundation.Grothendieck.SemiringGroupificationDifferences
-import HilbertMathlib.Foundation.Grothendieck.GrothendieckRing
+public import HilbertMathlib.Foundation.Grothendieck.SemiringGroupificationDifferences
+public import HilbertMathlib.Foundation.Grothendieck.GrothendieckRing
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! The free-ring groupification agrees with additive Grothendieck
 completion for arbitrary semirings, including noncommutative ones.

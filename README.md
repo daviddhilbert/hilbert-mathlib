@@ -75,3 +75,8 @@ Extracted files retain their original notices and applicable licenses.
 The Grothendieck-ring and Newton–Puiseux adaptations are Apache 2.0;
 their license texts and the ACVF-QE source license are retained under
 [verification/third-party](verification/third-party).
+
+The Fubini module compatibility revision adds module visibility headers and
+explicit public exports. Mathematical bodies and all 1,037 full public types
+and axiom inventories are preserved; see `verification/module-migration.json`
+and `verification/module-audit.json`.

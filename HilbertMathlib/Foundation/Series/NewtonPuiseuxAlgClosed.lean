@@ -1,3 +1,5 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%205/NewtonPuiseuxAlgClosed.lean
 Original notices and declaration namespaces are retained.
@@ -11,11 +13,15 @@ Local adaptation: imports and module wrappers for the Section 5 pinned environme
 Source: https://github.com/deancureton/Puiseux (retrieved 2026-11-14).
 -/
 
-import Mathlib.Algebra.Polynomial.Taylor
-import Mathlib.FieldTheory.IsAlgClosed.Basic
-import HilbertMathlib.Foundation.Series.NewtonPuiseuxHenselSplitting
-import HilbertMathlib.Foundation.Series.NewtonPuiseuxAlgebraic
-import HilbertMathlib.Foundation.Series.NewtonPuiseuxBasic
+public import Mathlib.Algebra.Polynomial.Taylor
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
+public import HilbertMathlib.Foundation.Series.NewtonPuiseuxHenselSplitting
+public import HilbertMathlib.Foundation.Series.NewtonPuiseuxAlgebraic
+public import HilbertMathlib.Foundation.Series.NewtonPuiseuxBasic
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-!
 # Puiseux's theorem

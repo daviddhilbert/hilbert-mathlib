@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%205/PuiseuxGalois.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import HilbertMathlib.Foundation.Series.PuiseuxCharacterActions
-import HilbertMathlib.Foundation.Series.LaurentKummerActions
+public import HilbertMathlib.Foundation.Series.PuiseuxCharacterActions
+public import HilbertMathlib.Foundation.Series.LaurentKummerActions
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Generation and the Galois classification of the concrete Puiseux field. -/
 set_option autoImplicit false

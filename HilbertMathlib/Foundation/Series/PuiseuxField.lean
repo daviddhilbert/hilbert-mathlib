@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%205/PuiseuxField.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import HilbertMathlib.Foundation.Series.LaurentKummerBasis
-import HilbertMathlib.Foundation.Series.HahnEmbeddings
+public import HilbertMathlib.Foundation.Series.LaurentKummerBasis
+public import HilbertMathlib.Foundation.Series.HahnEmbeddings
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! A concrete Puiseux field inside rational-exponent Hahn series.
 Membership means an actual Laurent series at a finite denominator. -/

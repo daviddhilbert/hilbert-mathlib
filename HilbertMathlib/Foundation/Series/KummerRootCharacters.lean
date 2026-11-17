@@ -1,13 +1,19 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%205/KummerRootCharacters.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.RingTheory.RootsOfUnity.Basic
-import Mathlib.Algebra.Algebra.Subalgebra.Lattice
-import Mathlib.Algebra.Algebra.Equiv
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.Ring
+public import Mathlib.RingTheory.RootsOfUnity.Basic
+public import Mathlib.Algebra.Algebra.Subalgebra.Lattice
+public import Mathlib.Algebra.Algebra.Equiv
+public import Mathlib.Tactic.FieldSimp
+public import Mathlib.Tactic.Ring
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Root-choice-independent finite Kummer characters used in Remark 5.13.
 These are actual algebraic automorphisms of fields. The Laurent-series

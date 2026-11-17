@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%203/CoproductIsoClasses.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.CategoryTheory.Skeletal
-import Mathlib.Algebra.Group.Defs
+public import Mathlib.CategoryTheory.Skeletal
+public import Mathlib.Algebra.Group.Defs
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Isomorphism classes form an additive commutative monoid whenever
 actual disjoint unions have the usual isomorphisms. No cancellation is used. -/

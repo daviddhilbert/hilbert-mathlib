@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%204/CoactionSurjectiveDescent.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import HilbertMathlib.Foundation.Algebra.CoactionGradedMaps
-import Mathlib.RingTheory.Ideal.Maps
+public import HilbertMathlib.Foundation.Algebra.CoactionGradedMaps
+public import Mathlib.RingTheory.Ideal.Maps
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Descent of graded ring maps through a graded surjection. Homogeneous
 preimages are constructed by taking the required coefficient of any

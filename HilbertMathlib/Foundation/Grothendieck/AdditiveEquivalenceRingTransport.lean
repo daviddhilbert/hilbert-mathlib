@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/integration-in-ACVF/blob/2c29c5b848f9077274774125222bba563cdc11b4/section%207/Integration7/AdditiveEquivalenceRingTransport.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.Algebra.Ring.InjSurj
-import Mathlib.Algebra.Ring.Equiv
+public import Mathlib.Algebra.Ring.InjSurj
+public import Mathlib.Algebra.Ring.Equiv
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Ring transport through an additive equivalence retains the original
 addition, zero, negation and integer scalar multiplication. -/

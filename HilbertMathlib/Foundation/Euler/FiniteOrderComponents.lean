@@ -1,9 +1,15 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/diamond-integral/blob/ba6249a11b39e8e71fd0130ab0087e7185b95433/section%204/FiniteOrderComponents.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.Data.Finset.Max
+public import Mathlib.Data.Finset.Max
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Every point outside a finite ordered set lies in its whole-line,
 lower-ray, upper-ray or adjacent-endpoint component. This is a pure finite

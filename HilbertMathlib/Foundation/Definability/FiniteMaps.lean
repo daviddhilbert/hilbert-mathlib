@@ -1,10 +1,16 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/special-transformations/blob/25852c85a31c67069b148bd31348128318303510/Section4/FiniteMaps.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import HilbertMathlib.Foundation.Definability.Products
-import Mathlib.Data.Set.Finite.Lattice
+public import HilbertMathlib.Foundation.Definability.Products
+public import Mathlib.Data.Set.Finite.Lattice
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 set_option linter.style.haveILetI false
 
 open Classical FirstOrder FirstOrder.Language

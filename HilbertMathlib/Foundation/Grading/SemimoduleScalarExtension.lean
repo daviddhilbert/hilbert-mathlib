@@ -1,9 +1,15 @@
+module
+
 /-
 Shared-library extraction from https://github.com/daviddhilbert/integration-in-ACVF/blob/2c29c5b848f9077274774125222bba563cdc11b4/section%207/Integration7/SemimoduleScalarExtension.lean
 Original notices and declaration namespaces are retained.
 Only custom import providers and this provenance header change.
 -/
-import Mathlib.Algebra.Module.Presentation.Basic
+public import Mathlib.Algebra.Module.Presentation.Basic
+
+set_option backward.privateInPublic true
+set_option backward.proofsInPublic true
+@[expose] public section
 
 /-! Scalar extension from a possibly noncommutative semiring to a ring.
 The target-module presentation uses the checked Mathlib Relations API.
