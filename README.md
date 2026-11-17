@@ -34,7 +34,7 @@ The shared baseline is Lean 4.35.0 with Mathlib pinned at
 transitive dependency revisions. [Lean build](.github/workflows/lean.yml)
 checks the library on pushes, pull requests and manual runs, saving compiled
 files after the build. It then runs `python3 verification/verify.py`, comparing
-the 1,037 inventoried public declarations with their pre-extraction full types
+the 1,782 inventoried public declarations with their pre-extraction full types
 and principle inventories. Audit evidence is uploaded with each run.
 
 See [WORKFLOW.md](WORKFLOW.md) for proof checks, module ownership and downstream
@@ -75,3 +75,10 @@ Extracted files retain their original notices and applicable licenses.
 The Grothendieck-ring and Newton–Puiseux adaptations are Apache 2.0;
 their license texts and the ACVF-QE source license are retained under
 [verification/third-party](verification/third-party).
+
+The approved November 17 extraction adds generic mathematics from126 source files
+(125 whole files and the generic core of one mixed file). Together with the
+initial106 modules,232 modules retain their original public names and hypotheses.
+The two paper relation wrappers in the mixed file remain in Fubini-theorems.
+New families include field theory, valuations, algebraic geometry, topology,
+quotients and rewriting; the package still depends only on Mathlib.

@@ -18,3 +18,9 @@
 - Work persistently within the approved scope and avoid repeated permission
   requests for routine reversible work. Publish only within the user's
   authorization, and report the actual scope of verification.
+
+- Author approval, November17: migrate the65-file reviewed batch and61
+  further generic field/valuation/geometry candidates. Preserve all public
+  types and hypotheses, the original namespaces and provenance; update every
+  consumer and require passing local builds, audits and CI. The three
+  vendored-Stacks candidates and five retained paper/language files are excluded.
