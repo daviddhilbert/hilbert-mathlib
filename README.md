@@ -39,7 +39,7 @@ The shared baseline is Lean 4.35.0 with Mathlib pinned at
 transitive dependency revisions. [Lean build](.github/workflows/lean.yml)
 checks the library on pushes, pull requests and manual runs, saving compiled
 files after the build. It then runs `python3 verification/verify.py`, comparing
-the 2,780 inventoried public declarations with their pre-extraction full types
+the 3,153 inventoried public declarations with their pre-extraction full types
 and principle inventories. Audit evidence is uploaded with each run.
 
 See [WORKFLOW.md](WORKFLOW.md) for proof checks, module ownership and downstream
@@ -105,3 +105,14 @@ saturation and the saturated-model QE criterion, the Grothendieck ring of
 ACF-definable sets, and strict symmetric monoidal and Markov categories. The
 source repositories still hold their own copies until their consumers are
 migrated.
+
+The November 23 extraction (batch `2026-11-23-tier2`) adds 60 modules: laminar
+set families, uniform finiteness formulas and elementary restriction of
+definable maps, coordinate derivations, implicit Jacobians, Gauss valuations and
+limit-polynomial roots, the one-sorted language of valued fields with its prime
+models, amalgamation of valued fields with Chevalley's lemma, and the zero-degree
+part of polynomial coactions. Four modules are generic cores split from mixed
+files (`JohnsonLanguagePrime` without the ACVF theory, `JohnsonAmalgamation`'s
+`Johnson22` namespace, and two blocks of diamond-integral section 4); one
+module's unused paper import was replaced by Mathlib imports. The same
+signature and axiom comparison with the original sources applies.

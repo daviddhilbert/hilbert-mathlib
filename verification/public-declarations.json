@@ -22238,5 +22238,2989 @@
     "source_path": "stage 0/FreeMarkov/Stage0/Syntactic/Universal.lean",
     "old_module": "stage 0.FreeMarkov.Stage0.Syntactic.Universal",
     "new_module": "HilbertMathlib.Foundation.CategoryTheory.Syntactic.Universal"
+  },
+  {
+    "kind": "def",
+    "name": "IntegrationInACVF.Section3.PuncturedDecomposition.region",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedDecomposition.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedDecomposition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedDecomposition"
+  },
+  {
+    "kind": "def",
+    "name": "IntegrationInACVF.Section3.PuncturedDecomposition.holes",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedDecomposition.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedDecomposition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedDecomposition"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PuncturedDecomposition.mem_holes",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedDecomposition.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedDecomposition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedDecomposition"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PuncturedDecomposition.proper_subset_in_hole",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedDecomposition.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedDecomposition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedDecomposition"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PuncturedDecomposition.region_eq_sdiff_holes",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedDecomposition.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedDecomposition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedDecomposition"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PuncturedDecomposition.holes_disjoint",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedDecomposition.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedDecomposition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedDecomposition"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PuncturedDecomposition.regions_disjoint",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedDecomposition.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedDecomposition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedDecomposition"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PuncturedDecomposition.region_agreement",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedDecomposition.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedDecomposition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedDecomposition"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PuncturedDecomposition.exists_region",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedDecomposition.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedDecomposition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedDecomposition"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PuncturedDecomposition.finite_punctured_decomposition",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedDecomposition.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedDecomposition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedDecomposition"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PuncturedDecomposition.finite_decomposition_of_support",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedDecomposition.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedDecomposition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedDecomposition"
+  },
+  {
+    "kind": "def",
+    "name": "IntegrationInACVF.Section3.MinimalBallSupport.Supports",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/MinimalBallSupport.lean",
+    "old_module": "section 3.IntegrationSection3.MinimalBallSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.MinimalBallSupport"
+  },
+  {
+    "kind": "def",
+    "name": "IntegrationInACVF.Section3.MinimalBallSupport.IsSupport",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/MinimalBallSupport.lean",
+    "old_module": "section 3.IntegrationSection3.MinimalBallSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.MinimalBallSupport"
+  },
+  {
+    "kind": "def",
+    "name": "IntegrationInACVF.Section3.MinimalBallSupport.IsMinimalSupport",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/MinimalBallSupport.lean",
+    "old_module": "section 3.IntegrationSection3.MinimalBallSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.MinimalBallSupport"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.MinimalBallSupport.exists_minimal_support",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/MinimalBallSupport.lean",
+    "old_module": "section 3.IntegrationSection3.MinimalBallSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.MinimalBallSupport"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.MinimalBallSupport.essential",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/MinimalBallSupport.lean",
+    "old_module": "section 3.IntegrationSection3.MinimalBallSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.MinimalBallSupport"
+  },
+  {
+    "kind": "def",
+    "name": "IntegrationInACVF.Section3.MinimalBallSupport.AvoidsFiniteProperSubballs",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/MinimalBallSupport.lean",
+    "old_module": "section 3.IntegrationSection3.MinimalBallSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.MinimalBallSupport"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.MinimalBallSupport.region_mem_iff_subset",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/MinimalBallSupport.lean",
+    "old_module": "section 3.IntegrationSection3.MinimalBallSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.MinimalBallSupport"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.MinimalBallSupport.strata_points",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/MinimalBallSupport.lean",
+    "old_module": "section 3.IntegrationSection3.MinimalBallSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.MinimalBallSupport"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.MinimalBallSupport.essential_ne_univ",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/MinimalBallSupport.lean",
+    "old_module": "section 3.IntegrationSection3.MinimalBallSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.MinimalBallSupport"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.MinimalBallSupport.region_of_agreement",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/MinimalBallSupport.lean",
+    "old_module": "section 3.IntegrationSection3.MinimalBallSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.MinimalBallSupport"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.MinimalBallSupport.minimal_subset_support",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/MinimalBallSupport.lean",
+    "old_module": "section 3.IntegrationSection3.MinimalBallSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.MinimalBallSupport"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.MinimalBallSupport.minimal_unique",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/MinimalBallSupport.lean",
+    "old_module": "section 3.IntegrationSection3.MinimalBallSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.MinimalBallSupport"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.MinimalBallSupport.support_covers",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/MinimalBallSupport.lean",
+    "old_module": "section 3.IntegrationSection3.MinimalBallSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.MinimalBallSupport"
+  },
+  {
+    "kind": "def",
+    "name": "IntegrationInACVF.Section3.CoarsePartition.SmallIn",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/CoarsePartition.lean",
+    "old_module": "section 3.IntegrationSection3.CoarsePartition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.CoarsePartition"
+  },
+  {
+    "kind": "def",
+    "name": "IntegrationInACVF.Section3.CoarsePartition.CoveredBy",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/CoarsePartition.lean",
+    "old_module": "section 3.IntegrationSection3.CoarsePartition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.CoarsePartition"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.CoarsePartition.region_not_small",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/CoarsePartition.lean",
+    "old_module": "section 3.IntegrationSection3.CoarsePartition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.CoarsePartition"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.CoarsePartition.common_support",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/CoarsePartition.lean",
+    "old_module": "section 3.IntegrationSection3.CoarsePartition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.CoarsePartition"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.CoarsePartition.outer_piece_cover",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/CoarsePartition.lean",
+    "old_module": "section 3.IntegrationSection3.CoarsePartition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.CoarsePartition"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.CoarsePartition.unique_outer_piece_at_bound",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/CoarsePartition.lean",
+    "old_module": "section 3.IntegrationSection3.CoarsePartition",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.CoarsePartition"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PuncturedSupport.supports",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedSupport.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedSupport"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PuncturedSupport.region_parent",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedSupport.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedSupport"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PuncturedSupport.minimal_eq",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedSupport.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedSupport"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PuncturedSupport.positive_names_singleton",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PuncturedSupport.lean",
+    "old_module": "section 3.IntegrationSection3.PuncturedSupport",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PuncturedSupport"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PunctureCuts.exists_avoiding",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PunctureCuts.lean",
+    "old_module": "section 3.IntegrationSection3.PunctureCuts",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PunctureCuts"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PunctureCuts.not_subset_old_holes",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PunctureCuts.lean",
+    "old_module": "section 3.IntegrationSection3.PunctureCuts",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PunctureCuts"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.PunctureCuts.strict_replacement",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/PunctureCuts.lean",
+    "old_module": "section 3.IntegrationSection3.PunctureCuts",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.PunctureCuts"
+  },
+  {
+    "kind": "def",
+    "name": "IntegrationInACVF.Section3.SupportInsideBall.trimmed",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/SupportInsideBall.lean",
+    "old_module": "section 3.IntegrationSection3.SupportInsideBall",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.SupportInsideBall"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.SupportInsideBall.trimmed_support",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/SupportInsideBall.lean",
+    "old_module": "section 3.IntegrationSection3.SupportInsideBall",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.SupportInsideBall"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.SupportInsideBall.support_subset_parent",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/SupportInsideBall.lean",
+    "old_module": "section 3.IntegrationSection3.SupportInsideBall",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.SupportInsideBall"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.SupportInsideBall.parent_region_subset",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/SupportInsideBall.lean",
+    "old_module": "section 3.IntegrationSection3.SupportInsideBall",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.SupportInsideBall"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.SupportInsideBall.parent_mem_small_complement",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/SupportInsideBall.lean",
+    "old_module": "section 3.IntegrationSection3.SupportInsideBall",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.SupportInsideBall"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.SupportInsideBall.proper_support_of_not_small",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/SupportInsideBall.lean",
+    "old_module": "section 3.IntegrationSection3.SupportInsideBall",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.SupportInsideBall"
+  },
+  {
+    "kind": "def",
+    "name": "IntegrationInACVF.Section3.FiniteBallProfiles.profile",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/FiniteBallProfiles.lean",
+    "old_module": "section 3.IntegrationSection3.FiniteBallProfiles",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.FiniteBallProfiles"
+  },
+  {
+    "kind": "def",
+    "name": "IntegrationInACVF.Section3.FiniteBallProfiles.IsTerminal",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/FiniteBallProfiles.lean",
+    "old_module": "section 3.IntegrationSection3.FiniteBallProfiles",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.FiniteBallProfiles"
+  },
+  {
+    "kind": "def",
+    "name": "IntegrationInACVF.Section3.FiniteBallProfiles.profileClass",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/FiniteBallProfiles.lean",
+    "old_module": "section 3.IntegrationSection3.FiniteBallProfiles",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.FiniteBallProfiles"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.FiniteBallProfiles.finite_avoidance",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/FiniteBallProfiles.lean",
+    "old_module": "section 3.IntegrationSection3.FiniteBallProfiles",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.FiniteBallProfiles"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.FiniteBallProfiles.exists_dominating_point",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/FiniteBallProfiles.lean",
+    "old_module": "section 3.IntegrationSection3.FiniteBallProfiles",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.FiniteBallProfiles"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.FiniteBallProfiles.terminal_class_hits",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/FiniteBallProfiles.lean",
+    "old_module": "section 3.IntegrationSection3.FiniteBallProfiles",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.FiniteBallProfiles"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.FiniteBallProfiles.exists_terminal_in_ball",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/FiniteBallProfiles.lean",
+    "old_module": "section 3.IntegrationSection3.FiniteBallProfiles",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.FiniteBallProfiles"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.FiniteBallProfiles.terminal_class_intersection",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/FiniteBallProfiles.lean",
+    "old_module": "section 3.IntegrationSection3.FiniteBallProfiles",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.FiniteBallProfiles"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.FiniteBallProfiles.finite_terminal_classes",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/FiniteBallProfiles.lean",
+    "old_module": "section 3.IntegrationSection3.FiniteBallProfiles",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.FiniteBallProfiles"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.TerminalBallCover.ball_eq_terminal_class",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/TerminalBallCover.lean",
+    "old_module": "section 3.IntegrationSection3.TerminalBallCover",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.TerminalBallCover"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.FiniteSupportHitting.finite_hitting_set",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/FiniteSupportHitting.lean",
+    "old_module": "section 3.IntegrationSection3.FiniteSupportHitting",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.FiniteSupportHitting"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.FiniteCofiniteClasses.outside_finite_same_profile",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/FiniteCofiniteClasses.lean",
+    "old_module": "section 3.IntegrationSection3.FiniteCofiniteClasses",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.FiniteCofiniteClasses"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.FiniteCofiniteClasses.finite_or_cofinite",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/FiniteCofiniteClasses.lean",
+    "old_module": "section 3.IntegrationSection3.FiniteCofiniteClasses",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.FiniteCofiniteClasses"
+  },
+  {
+    "kind": "def",
+    "name": "IntegrationInACVF.Section3.QuotientCover.meets",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/QuotientCover.lean",
+    "old_module": "section 3.IntegrationSection3.QuotientCover",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.QuotientCover"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.QuotientCover.image_finite_of_finite_cover",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/QuotientCover.lean",
+    "old_module": "section 3.IntegrationSection3.QuotientCover",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.QuotientCover"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.QuotientCover.meets_infinite",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/QuotientCover.lean",
+    "old_module": "section 3.IntegrationSection3.QuotientCover",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.QuotientCover"
+  },
+  {
+    "kind": "theorem",
+    "name": "IntegrationInACVF.Section3.QuotientCover.complement_infinite",
+    "source_repo": "integration-in-ACVF",
+    "source_path": "section 3/IntegrationSection3/QuotientCover.lean",
+    "old_module": "section 3.IntegrationSection3.QuotientCover",
+    "new_module": "HilbertMathlib.Foundation.FiniteSets.QuotientCover"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.tupleEqualityFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteFibreValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteFibreValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteFibreValidity"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.tupleEqualityFormula_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteFibreValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteFibreValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteFibreValidity"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.tupleDistinctFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteFibreValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteFibreValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteFibreValidity"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.tupleDistinctFormula_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteFibreValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteFibreValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteFibreValidity"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.fibreCollisionFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteFibreValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteFibreValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteFibreValidity"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.fibreCollisionFormula_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteFibreValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteFibreValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteFibreValidity"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.finiteFibreValidityFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteFibreValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteFibreValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteFibreValidity"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.finiteFibreValidityFormula_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteFibreValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteFibreValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteFibreValidity"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.no_injective_fin_iff_card_bound",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteFibreValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteFibreValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteFibreValidity"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.finiteFibreValidityFormula_card",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteFibreValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteFibreValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteFibreValidity"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.finite_image_bound_iff_no_distinct_rows",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteImageCollisionCriterion.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteImageCollisionCriterion",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteImageCollisionCriterion"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.valueCollisionFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteValueValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteValueValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteValueValidity"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.valueCollisionFormula_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteValueValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteValueValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteValueValidity"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.finiteValueValidityFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteValueValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteValueValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteValueValidity"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.finiteValueValidityFormula_card",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteValueValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteValueValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteValueValidity"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.valueCollisionFormula_realize_on_domain",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteValueDomainValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteValueDomainValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteValueDomainValidity"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.finiteValueValidityFormula_on_domain_card",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FiniteValueDomainValidity.lean",
+    "old_module": "FubiniTheorems.Decomposition.FiniteValueDomainValidity",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FiniteValueDomainValidity"
+  },
+  {
+    "kind": "inductive",
+    "name": "DiamondIntegral.Section5.CylinderFibreKind",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "abbrev",
+    "name": "DiamondIntegral.Section5.CylinderFibreKind.endpoints",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.CylinderFibreKind.condition",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.CylinderFibreKind.ordered",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.CylinderFibreKind.Describes",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.relationalIff",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.relationalIff_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.binaryRelabel",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.binaryRelabel_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.CylinderFibreKind.conditionFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.CylinderFibreKind.orderFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.cylindricalFibreValidityFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.cylindricalFibreValidityFormula_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.CylinderFibreKind.conditionFormula_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.CylinderFibreKind.orderFormula_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.cylindricalFibreValidityFormula_quotient",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylindricalFibreSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylindricalFibreSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylindricalFibreSyntax"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.CylinderFibreKind.endpoints_unique",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/CylinderEndpointUniqueness.lean",
+    "old_module": "FubiniTheorems.Decomposition.CylinderEndpointUniqueness",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.CylinderEndpointUniqueness"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.finitePartitionValidityFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FinitePartitionSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.FinitePartitionSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FinitePartitionSyntax"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.finitePartitionValidityFormula_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FinitePartitionSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.FinitePartitionSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FinitePartitionSyntax"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.finitePartitionValidityFormula_unique",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/FinitePartitionSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.FinitePartitionSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.FinitePartitionSyntax"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.tupleProperFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/QuotientDomainSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.QuotientDomainSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.QuotientDomainSyntax"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.tupleProperFormula_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/QuotientDomainSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.QuotientDomainSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.QuotientDomainSyntax"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.tupleQuotientEqualityFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/QuotientDomainSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.QuotientDomainSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.QuotientDomainSyntax"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.tupleQuotientEqualityFormula_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/QuotientDomainSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.QuotientDomainSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.QuotientDomainSyntax"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.quotientDomainValidityFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/QuotientDomainSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.QuotientDomainSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.QuotientDomainSyntax"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.quotientDomainValidityFormula_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/QuotientDomainSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.QuotientDomainSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.QuotientDomainSyntax"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.quotientFormulaDomain",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/QuotientDomainSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.QuotientDomainSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.QuotientDomainSyntax"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.quotientFormulaDomain_full_preimage",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/QuotientDomainSyntax.lean",
+    "old_module": "FubiniTheorems.Decomposition.QuotientDomainSyntax",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.QuotientDomainSyntax"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.namedPolynomialTerm",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/NamedPolynomialTerms.lean",
+    "old_module": "FubiniTheorems.Decomposition.NamedPolynomialTerms",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.NamedPolynomialTerms"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.namedPolynomialTerm_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/NamedPolynomialTerms.lean",
+    "old_module": "FubiniTheorems.Decomposition.NamedPolynomialTerms",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.NamedPolynomialTerms"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.rationalGraphFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/RationalGraphFormulas.lean",
+    "old_module": "FubiniTheorems.Decomposition.RationalGraphFormulas",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.RationalGraphFormulas"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.rationalGraphFormula_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/RationalGraphFormulas.lean",
+    "old_module": "FubiniTheorems.Decomposition.RationalGraphFormulas",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.RationalGraphFormulas"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.elementary_namedFormula_nonempty",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryDefinableNonempty.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryDefinableNonempty",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryDefinableNonempty"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.elementary_actual_nonempty",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryDefinableNonempty.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryDefinableNonempty",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryDefinableNonempty"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.splitTupleFormula",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryTupleProjections.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryTupleProjections",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryTupleProjections"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.splitTupleFormula_realize",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryTupleProjections.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryTupleProjections",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryTupleProjections"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.elementary_tuple_exists_row",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryTupleProjections.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryTupleProjections",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryTupleProjections"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.elementary_actual_projection",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryTupleProjections.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryTupleProjections",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryTupleProjections"
+  },
+  {
+    "kind": "structure",
+    "name": "DiamondIntegral.Section5.RawDefinableGraphMap",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphMaps.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphMaps",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphMaps"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.RawDefinableGraphMap.graph",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphMaps.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphMaps",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphMaps"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.RawDefinableGraphMap.graph_append_iff",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphMaps.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphMaps",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphMaps"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.raw_tuple_comp_append",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphMaps.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphMaps",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphMaps"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.RawDefinableGraphMap.output_in_elementary_image",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphMaps.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphMaps",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphMaps"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.RawDefinableGraphMap.restrict",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphMaps.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphMaps",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphMaps"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.RawDefinableGraphMap.restrict_commutes",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphMaps.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphMaps",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphMaps"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.RawDefinableGraphMap.restrict_graph",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphMaps.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphMaps",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphMaps"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.RawDefinableGraphMap.restriction",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphMaps.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphMaps",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphMaps"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.rawTupleSwap",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphBijections.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphBijections",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphBijections"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.rawTupleSwap_append",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphBijections.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphBijections",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphBijections"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.rawTupleSwap_twice",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphBijections.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphBijections",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphBijections"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section5.RawDefinableGraphMap.inverse",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphBijections.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphBijections",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphBijections"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.RawDefinableGraphMap.restrict_injective",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphBijections.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphBijections",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphBijections"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section5.RawDefinableGraphMap.restrict_bijective",
+    "source_repo": "Fubini-theorems",
+    "source_path": "FubiniTheorems/Decomposition/ElementaryRawGraphBijections.lean",
+    "old_module": "FubiniTheorems.Decomposition.ElementaryRawGraphBijections",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ElementaryRawGraphBijections"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.exists_coordinate_derivation",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/CoordinateDerivations.lean",
+    "old_module": "Section9.CoordinateDerivations",
+    "new_module": "HilbertMathlib.Foundation.Valuation.CoordinateDerivations"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.exists_algebraic_coordinate_derivation",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/AlgebraicCoordinateDerivations.lean",
+    "old_module": "Section9.AlgebraicCoordinateDerivations",
+    "new_module": "HilbertMathlib.Foundation.Valuation.AlgebraicCoordinateDerivations"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.exists_graph_coordinate_derivations",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GraphCoordinateDerivations.lean",
+    "old_module": "Section9.GraphCoordinateDerivations",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GraphCoordinateDerivations"
+  },
+  {
+    "kind": "def",
+    "name": "SpecialTransformations.Section9.EtaleCovered",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/EtaleDerivationBound.lean",
+    "old_module": "Section9.EtaleDerivationBound",
+    "new_module": "HilbertMathlib.Foundation.Valuation.EtaleDerivationBound"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.derivation_maps_subring_of_etaleCovered",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/EtaleDerivationBound.lean",
+    "old_module": "Section9.EtaleDerivationBound",
+    "new_module": "HilbertMathlib.Foundation.Valuation.EtaleDerivationBound"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.matrix_map_inv_of_isUnit",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "def",
+    "name": "SpecialTransformations.Section9.implicitMatrix",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.implicitMatrix_equation",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.implicitMatrix_unique",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.map_implicitMatrix",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.implicitMatrix_det_isUnit",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "def",
+    "name": "SpecialTransformations.Section9.inputJacobian",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "def",
+    "name": "SpecialTransformations.Section9.outputJacobian",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.map_inputJacobian",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.map_outputJacobian",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "def",
+    "name": "SpecialTransformations.Section9.implicitJacobian",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.map_implicitJacobian",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.outputJacobian_isUnit_of_residue",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.implicitJacobian_integral_reduction",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.implicitJacobian_value_one",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianReduction.lean",
+    "old_module": "Section9.RVJacobianReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianReduction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.derivation_aeval_eq_sum",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianDerivations.lean",
+    "old_module": "Section9.RVJacobianDerivations",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianDerivations"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.derivation_implicit_equation",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianDerivations.lean",
+    "old_module": "Section9.RVJacobianDerivations",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianDerivations"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.derivation_eq_implicitJacobian",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/RVJacobianDerivations.lean",
+    "old_module": "Section9.RVJacobianDerivations",
+    "new_module": "HilbertMathlib.Foundation.Valuation.RVJacobianDerivations"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.implicitScalarSlope_single",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/ImplicitScalarDerivations.lean",
+    "old_module": "Section9.ImplicitScalarDerivations",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ImplicitScalarDerivations"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.implicitScalarSlope_eq_derivation",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/ImplicitScalarDerivations.lean",
+    "old_module": "Section9.ImplicitScalarDerivations",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ImplicitScalarDerivations"
+  },
+  {
+    "kind": "def",
+    "name": "SpecialTransformations.Section9.IsGaussEvaluation",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GaussDerivative.lean",
+    "old_module": "Section9.GaussDerivative",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GaussDerivative"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.value_pderiv_le_of_gauss",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GaussDerivative.lean",
+    "old_module": "Section9.GaussDerivative",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GaussDerivative"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.value_derivation_le_of_mem_gaussField",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GaussDerivative.lean",
+    "old_module": "Section9.GaussDerivative",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GaussDerivative"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.exists_same_value_of_gaussPolynomial",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GaussDerivative.lean",
+    "old_module": "Section9.GaussDerivative",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GaussDerivative"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.exists_same_value_of_mem_gaussField",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GaussDerivative.lean",
+    "old_module": "Section9.GaussDerivative",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GaussDerivative"
+  },
+  {
+    "kind": "def",
+    "name": "SpecialTransformations.Section9.valuationRingInclusion",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GaussEvaluation.lean",
+    "old_module": "Section9.GaussEvaluation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GaussEvaluation"
+  },
+  {
+    "kind": "instance",
+    "name": "SpecialTransformations.Section9.valuationRingInclusion_isLocalHom",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GaussEvaluation.lean",
+    "old_module": "Section9.GaussEvaluation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GaussEvaluation"
+  },
+  {
+    "kind": "def",
+    "name": "SpecialTransformations.Section9.residueFieldInclusion",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GaussEvaluation.lean",
+    "old_module": "Section9.GaussEvaluation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GaussEvaluation"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.isGaussEvaluation_of_independent_residues",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GaussEvaluation.lean",
+    "old_module": "Section9.GaussEvaluation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GaussEvaluation"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.exists_same_value_of_isAlgebraic_over_gaussField",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GaussExtension.lean",
+    "old_module": "Section9.GaussExtension",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GaussExtension"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.residueCharZero_of_subfield",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GaussExtension.lean",
+    "old_module": "Section9.GaussExtension",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GaussExtension"
+  },
+  {
+    "kind": "def",
+    "name": "SpecialTransformations.Section9.graphCoefficientEquiv",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GaussFieldRestriction.lean",
+    "old_module": "Section9.GaussFieldRestriction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GaussFieldRestriction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.isGaussEvaluation_comap_subfield",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GaussFieldRestriction.lean",
+    "old_module": "Section9.GaussFieldRestriction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GaussFieldRestriction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.isGaussEvaluation_of_distinct_fine_values",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/CoarsenedGauss.lean",
+    "old_module": "Section9.CoarsenedGauss",
+    "new_module": "HilbertMathlib.Foundation.Valuation.CoarsenedGauss"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.algebraicIndependent_of_isGaussEvaluation",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/CoarsenedGauss.lean",
+    "old_module": "Section9.CoarsenedGauss",
+    "new_module": "HilbertMathlib.Foundation.Valuation.CoarsenedGauss"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.exists_residue_derivation",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/ResidueDerivation.lean",
+    "old_module": "Section9.ResidueDerivation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ResidueDerivation"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.exists_unramified_powerBasis_of_residue_degree",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/UnramifiedGenerator.lean",
+    "old_module": "Section9.UnramifiedGenerator",
+    "new_module": "HilbertMathlib.Foundation.Valuation.UnramifiedGenerator"
+  },
+  {
+    "kind": "def",
+    "name": "SpecialTransformations.Section9.valuationRingInside",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/ValuedEtaleDerivation.lean",
+    "old_module": "Section9.ValuedEtaleDerivation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedEtaleDerivation"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.valuationRingInside_mono",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/ValuedEtaleDerivation.lean",
+    "old_module": "Section9.ValuedEtaleDerivation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedEtaleDerivation"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.value_derivation_le_of_immediate_etale",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/ValuedEtaleDerivation.lean",
+    "old_module": "Section9.ValuedEtaleDerivation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedEtaleDerivation"
+  },
+  {
+    "kind": "def",
+    "name": "SpecialTransformations.Section9.coefficientResidueIntoGraph",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GraphResidueFieldRestriction.lean",
+    "old_module": "Section9.GraphResidueFieldRestriction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GraphResidueFieldRestriction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.coefficientResidueIntoGraph_commutes",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/GraphResidueFieldRestriction.lean",
+    "old_module": "Section9.GraphResidueFieldRestriction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.GraphResidueFieldRestriction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.distinct_monomial_values_of_nested_infinitesimals",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/InfinitesimalMonomials.lean",
+    "old_module": "Section9.InfinitesimalMonomials",
+    "new_module": "HilbertMathlib.Foundation.Valuation.InfinitesimalMonomials"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.value_derivation_le_one_of_simpleRoot",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/IntegralDerivativeReduction.lean",
+    "old_module": "Section9.IntegralDerivativeReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.IntegralDerivativeReduction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.value_derivation_le_one_of_powerSum",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/IntegralDerivativeReduction.lean",
+    "old_module": "Section9.IntegralDerivativeReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.IntegralDerivativeReduction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.value_derivation_le_of_same_values",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/IntegralDerivativeReduction.lean",
+    "old_module": "Section9.IntegralDerivativeReduction",
+    "new_module": "HilbertMathlib.Foundation.Valuation.IntegralDerivativeReduction"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.value_coeff_le_powerSum",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/ValuedPowerBasis.lean",
+    "old_module": "Section9.ValuedPowerBasis",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedPowerBasis"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.value_derivation_le_of_unramified_powerBasis",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/UnramifiedDerivation.lean",
+    "old_module": "Section9.UnramifiedDerivation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.UnramifiedDerivation"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.exists_map_eq_integral_quotient",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/HenselizedValuationImage.lean",
+    "old_module": "Section9.HenselizedValuationImage",
+    "new_module": "HilbertMathlib.Foundation.Valuation.HenselizedValuationImage"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.localValuationRing_range_eq_intersection",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/HenselizedValuationImage.lean",
+    "old_module": "Section9.HenselizedValuationImage",
+    "new_module": "HilbertMathlib.Foundation.Valuation.HenselizedValuationImage"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.factor_input_power",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/LimitPolynomialNormalization.lean",
+    "old_module": "Section9.LimitPolynomialNormalization",
+    "new_module": "HilbertMathlib.Foundation.Valuation.LimitPolynomialNormalization"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.exists_input_radius_near_factor",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/LimitPolynomialNormalization.lean",
+    "old_module": "Section9.LimitPolynomialNormalization",
+    "new_module": "HilbertMathlib.Foundation.Valuation.LimitPolynomialNormalization"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.exists_bounded_root_candidates",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/LimitPolynomialRoots.lean",
+    "old_module": "Section9.LimitPolynomialRoots",
+    "new_module": "HilbertMathlib.Foundation.Valuation.LimitPolynomialRoots"
+  },
+  {
+    "kind": "def",
+    "name": "SpecialTransformations.Section9.memValuedLimitSide",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/LimitProjectiveRoots.lean",
+    "old_module": "Section9.LimitProjectiveRoots",
+    "new_module": "HilbertMathlib.Foundation.Valuation.LimitProjectiveRoots"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.exists_projective_root_candidates",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/LimitProjectiveRoots.lean",
+    "old_module": "Section9.LimitProjectiveRoots",
+    "new_module": "HilbertMathlib.Foundation.Valuation.LimitProjectiveRoots"
+  },
+  {
+    "kind": "def",
+    "name": "SpecialTransformations.Section9.implicitScalarSlope",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/ValuedImplicitDerivative.lean",
+    "old_module": "Section9.ValuedImplicitDerivative",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedImplicitDerivative"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.exists_value_implicitScalar_bounds",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/ValuedImplicitDerivative.lean",
+    "old_module": "Section9.ValuedImplicitDerivative",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedImplicitDerivative"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.determinant_value_le_one_of_entries",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/CoarsenedDeterminant.lean",
+    "old_module": "Section9.CoarsenedDeterminant",
+    "new_module": "HilbertMathlib.Foundation.Valuation.CoarsenedDeterminant"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.fine_det_le_one_of_coarsened_integral",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/CoarsenedDeterminant.lean",
+    "old_module": "Section9.CoarsenedDeterminant",
+    "new_module": "HilbertMathlib.Foundation.Valuation.CoarsenedDeterminant"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.constant_value_one_of_coarsened_integral_determinants",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/CoarsenedDeterminant.lean",
+    "old_module": "Section9.CoarsenedDeterminant",
+    "new_module": "HilbertMathlib.Foundation.Valuation.CoarsenedDeterminant"
+  },
+  {
+    "kind": "theorem",
+    "name": "SpecialTransformations.Section9.residueCharZero_of_coarsening",
+    "source_repo": "special-transformations",
+    "source_path": "Section9/CoarsenedResidueCharacteristic.lean",
+    "old_module": "Section9.CoarsenedResidueCharacteristic",
+    "new_module": "HilbertMathlib.Foundation.Valuation.CoarsenedResidueCharacteristic"
+  },
+  {
+    "kind": "inductive",
+    "name": "FirstOrder.ValFunc",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "inductive",
+    "name": "FirstOrder.ValRel",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "FirstOrder.Language.val",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "FirstOrder.valStructure",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "FirstOrder.valRingHom",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.instZeroTerm",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.instOneTerm",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.instAddTerm",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.instMulTerm",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.instNegTerm",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "abbrev",
+    "name": "ValPM.leF",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "abbrev",
+    "name": "ValPM.predM",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.axReflF",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.axRefl",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.axTransF",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.axTrans",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.axTotalF",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.axTotal",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.axZeroLeF",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.axZeroLe",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.axZeroEqF",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.axZeroEq",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.axUltraF",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.axUltra",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.axScaleF",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.axScale",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.fieldPart",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.valAxioms",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.valFieldCore",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.valField",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.realize_zeroTerm",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.realize_zeroTerm'",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.realize_oneTerm'",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.realize_addTerm'",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.realize_mulTerm'",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.realize_varTerm'",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.valFunMap_add",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.valFunMap_mul",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.valFunMap_zero",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.valFunMap_one",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.relMap_val_two",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.leF_realize",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.axRefl_realize",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.axTrans_realize",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.axTotal_realize",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.axZeroLe_realize",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.axZeroEq_realize",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.axUltra_realize",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.axScale_realize",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "structure",
+    "name": "ValPM.IsValPred",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.predFrac",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.mk'_cross",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.mk'_of_cross",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.predFrac_iff",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.mk'_denom_mul",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.mk'_eq_zero_iff'",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.mk'_add_same",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.predFrac_same_denom",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.predFrac_isValPred",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.valStructOf",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.valField_model",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.isValPred_of_model",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.model_of_isValPred",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.isValPred_iff_model",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.val_ne_zero",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.isValPred_of_valuation",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.valStructure_model",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.ringHom_map_fun",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.zeroOf",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.ringEmbOfVal",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.pred_emb_iff",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.map_zeroOf",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.zeroOf_eq_zero",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "abbrev",
+    "name": "ValPM.relIdeal",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.lift_eq_apply_term",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.mem_relIdeal_iff",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.ker_lift_eq",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.valToRing",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.valFunMap_eq_ringVal",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.valToRing_onFunction",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.valFunMap_ringHom_map",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.pred_div_iff",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.relMap_two",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "abbrev",
+    "name": "ValPM.coordRing",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.coordRing.instCommRing",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.coordRing.relIdealIsPrime",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.coordRing.instIsDomain",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.coordRing.instCompatibleRing",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "abbrev",
+    "name": "ValPM.coordEval",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.coordEval_mk",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.coordEval_injective",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.coordValStruct",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.coordValStruct.expansion",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.predCoord",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.mk_of_funMap",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.mk_of_valFunMap",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.coordMap_injective",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.coordEmbedding",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.predCoord_isValPred",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.ringStructOfVal",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.ringStructOfVal.expansion",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.model_field_of_valField",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "abbrev",
+    "name": "ValPM.valPrimeField",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "abbrev",
+    "name": "ValPM.predVal",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.valPrimeField.instValStruct",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.valPrimeField.instField",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.valPrimeField.instCompatibleRing",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "instance",
+    "name": "ValPM.valPrimeField.instExpansion",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.predVal_isValPred",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.valPrimeField_model",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.valPrimeMap_fun",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.valPrimeEmbedding",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.predM_lift_iff",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.rHom",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.rHom_mk",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.rHom_injective",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.pred_rHom_iff",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.gHom",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.gHom_algebraMap",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.gHom_injective",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.gHom_mk'",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.pred_gHom_iff",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.embeddingOfPredRingHom",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.valPrimeField_universal",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.HasPrimeModels",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.isValPred_of_valFieldModel",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.hasPrimeModels_valField",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.hasPrimeModels_mono",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "ValPM.valuativeRelOfIsValPred",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.exists_valuation_of_isValPred",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.valStruct_ext",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "theorem",
+    "name": "ValPM.valStructOf_eq_valStructure",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonLanguagePrime.lean",
+    "old_module": "Proofs.JohnsonLanguagePrime",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.ValuedFieldLanguage"
+  },
+  {
+    "kind": "def",
+    "name": "JohnsonValuedExtension.subfieldSubstructure",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonSubfield.lean",
+    "old_module": "Proofs.JohnsonSubfield",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.JohnsonSubfield"
+  },
+  {
+    "kind": "def",
+    "name": "JohnsonValuedExtension.subfieldEmbedding",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonSubfield.lean",
+    "old_module": "Proofs.JohnsonSubfield",
+    "new_module": "HilbertMathlib.Foundation.ModelTheory.JohnsonSubfield"
+  },
+  {
+    "kind": "lemma",
+    "name": "Johnson22.mem_maximalIdeal_iff_not_isUnit",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "theorem",
+    "name": "Johnson22.chevalley_subring",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "lemma",
+    "name": "Johnson22.comp_subtype_injective",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "def",
+    "name": "Johnson22.fracLift",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "lemma",
+    "name": "Johnson22.fracLift_apply",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "lemma",
+    "name": "Johnson22.fracLift_injective",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "lemma",
+    "name": "Johnson22.fracLift_mem_iff",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "lemma",
+    "name": "Johnson22.fracLift_val_le_iff",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "theorem",
+    "name": "Johnson22.valuedEmbedding_of_localHom",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "def",
+    "name": "Johnson22.IsValEmbedding",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "def",
+    "name": "Johnson22.IsLocalValHom",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "lemma",
+    "name": "Johnson22.val_lt_one_iff_of_valEmbedding",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "lemma",
+    "name": "Johnson22.IsValEmbedding.mem_iff",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "lemma",
+    "name": "Johnson22.fracLift_isValEmbedding",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "lemma",
+    "name": "Johnson22.isLocalValHom_restrict",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "theorem",
+    "name": "Johnson22.isValEmbedding_of_mem_iff",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "theorem",
+    "name": "Johnson22.amalgamation_of_ring_amalgamation",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "theorem",
+    "name": "Johnson22.chevalley_hom",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "theorem",
+    "name": "Johnson22.valExtension_of_fieldExtension",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "theorem",
+    "name": "Johnson22.chevalley_hom'",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "theorem",
+    "name": "Johnson22.flat_of_torsion_eq_bot",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "theorem",
+    "name": "Johnson22.torsion_eq_bot_of_injective",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "theorem",
+    "name": "Johnson22.star",
+    "source_repo": "ACVF-QE",
+    "source_path": "Proofs/JohnsonAmalgamation.lean",
+    "old_module": "Proofs.JohnsonAmalgamation",
+    "new_module": "HilbertMathlib.Foundation.Valuation.ValuedFieldAmalgamation"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.zeroProjection",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/RVZeroDegreeRES.lean",
+    "old_module": "section 4.RVZeroDegreeRES",
+    "new_module": "HilbertMathlib.Foundation.Coaction.ZeroProjection"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.zeroProjection_mem",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/RVZeroDegreeRES.lean",
+    "old_module": "section 4.RVZeroDegreeRES",
+    "new_module": "HilbertMathlib.Foundation.Coaction.ZeroProjection"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.zeroProjection_of_mem",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/RVZeroDegreeRES.lean",
+    "old_module": "section 4.RVZeroDegreeRES",
+    "new_module": "HilbertMathlib.Foundation.Coaction.ZeroProjection"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.zeroProjection_natural",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/RVZeroDegreeRES.lean",
+    "old_module": "section 4.RVZeroDegreeRES",
+    "new_module": "HilbertMathlib.Foundation.Coaction.ZeroProjection"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.zeroSubring",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/RVZeroDegreeEquivalences.lean",
+    "old_module": "section 4.RVZeroDegreeEquivalences",
+    "new_module": "HilbertMathlib.Foundation.Coaction.ZeroSubring"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.kernel_coefficient_mem",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/CoactionKernel.lean",
+    "old_module": "section 4.CoactionKernel",
+    "new_module": "HilbertMathlib.Foundation.Coaction.CoactionKernel"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.kernel_homogeneous",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/CoactionKernel.lean",
+    "old_module": "section 4.CoactionKernel",
+    "new_module": "HilbertMathlib.Foundation.Coaction.CoactionKernel"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.kernel_zeroProjection",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/CoactionKernel.lean",
+    "old_module": "section 4.CoactionKernel",
+    "new_module": "HilbertMathlib.Foundation.Coaction.CoactionKernel"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.kernel_positive_decomposition",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/CoactionKernel.lean",
+    "old_module": "section 4.CoactionKernel",
+    "new_module": "HilbertMathlib.Foundation.Coaction.CoactionKernel"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.TensorZeroDegree.zeroProjection_tmul",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/TensorZeroDegree.lean",
+    "old_module": "section 4.TensorZeroDegree",
+    "new_module": "HilbertMathlib.Foundation.Coaction.TensorZeroDegree"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.TensorZeroDegree.left_base_mem",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/TensorZeroDegree.lean",
+    "old_module": "section 4.TensorZeroDegree",
+    "new_module": "HilbertMathlib.Foundation.Coaction.TensorZeroDegree"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section4.TensorZeroDegree.leftZeroInclusion",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/TensorZeroDegree.lean",
+    "old_module": "section 4.TensorZeroDegree",
+    "new_module": "HilbertMathlib.Foundation.Coaction.TensorZeroDegree"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.TensorZeroDegree.zeroProjection_range",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/TensorZeroDegree.lean",
+    "old_module": "section 4.TensorZeroDegree",
+    "new_module": "HilbertMathlib.Foundation.Coaction.TensorZeroDegree"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.TensorZeroDegree.zero_surjective",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/TensorZeroDegree.lean",
+    "old_module": "section 4.TensorZeroDegree",
+    "new_module": "HilbertMathlib.Foundation.Coaction.TensorZeroDegree"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.zeroProjection_of_positive_mem",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/PositiveIdealDegreeZero.lean",
+    "old_module": "section 4.PositiveIdealDegreeZero",
+    "new_module": "HilbertMathlib.Foundation.Coaction.PositiveIdealDegreeZero"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.quotient_injective_on_zero",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/PositiveIdealDegreeZero.lean",
+    "old_module": "section 4.PositiveIdealDegreeZero",
+    "new_module": "HilbertMathlib.Foundation.Coaction.PositiveIdealDegreeZero"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.quotient_surjective_on_zero",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/PositiveIdealDegreeZero.lean",
+    "old_module": "section 4.PositiveIdealDegreeZero",
+    "new_module": "HilbertMathlib.Foundation.Coaction.PositiveIdealDegreeZero"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.quotientZeroMap",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/PositiveIdealDegreeZero.lean",
+    "old_module": "section 4.PositiveIdealDegreeZero",
+    "new_module": "HilbertMathlib.Foundation.Coaction.PositiveIdealDegreeZero"
+  },
+  {
+    "kind": "def",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.quotientZeroEquiv",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/PositiveIdealDegreeZero.lean",
+    "old_module": "section 4.PositiveIdealDegreeZero",
+    "new_module": "HilbertMathlib.Foundation.Coaction.PositiveIdealDegreeZero"
+  },
+  {
+    "kind": "theorem",
+    "name": "DiamondIntegral.Section4.PolynomialCoactionGrading.Coaction.quotientZeroEquiv_apply",
+    "source_repo": "diamond-integral",
+    "source_path": "section 4/PositiveIdealDegreeZero.lean",
+    "old_module": "section 4.PositiveIdealDegreeZero",
+    "new_module": "HilbertMathlib.Foundation.Coaction.PositiveIdealDegreeZero"
   }
 ]
