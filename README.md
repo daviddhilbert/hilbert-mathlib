@@ -18,6 +18,11 @@ HilbertMathlib/
     Euler/            — finite-jump functions and ordered Euler calculus
     Coaction/         — polynomial coactions and graded maps
     Series/           — Hahn, Laurent, Puiseux and Kummer algebra
+    Order/            — finite-order controllers, cells and germs
+    FieldTheory/      — transcendence degree and Krull dimension
+    Polyhedra/        — rational polyhedra, triangulations, lattice-point series
+    CategoryTheory/   — strict symmetric monoidal and Markov categories
+    (also AlgebraicGeometry/, Valuation/, Topology/, FiniteSets/, Quotients/, Rewriting/)
   Foundation.lean    — re-exports Foundation
 HilbertMathlib.lean  — root of the personal mathlib
 ```
@@ -34,7 +39,7 @@ The shared baseline is Lean 4.35.0 with Mathlib pinned at
 transitive dependency revisions. [Lean build](.github/workflows/lean.yml)
 checks the library on pushes, pull requests and manual runs, saving compiled
 files after the build. It then runs `python3 verification/verify.py`, comparing
-the 1,782 inventoried public declarations with their pre-extraction full types
+the 2,780 inventoried public declarations with their pre-extraction full types
 and principle inventories. Audit evidence is uploaded with each run.
 
 See [WORKFLOW.md](WORKFLOW.md) for proof checks, module ownership and downstream
@@ -74,7 +79,10 @@ The repository's original material is MIT — see [LICENSE](LICENSE).
 Extracted files retain their original notices and applicable licenses.
 The Grothendieck-ring and Newton–Puiseux adaptations are Apache 2.0;
 their license texts and the ACVF-QE source license are retained under
-[verification/third-party](verification/third-party).
+[verification/third-party](verification/third-party). So are the Apache 2.0
+licenses of diamond-integral, integration-in-ACVF and free-markov, and the
+license and notice of Elliot Glazer's definable-saturated, from which
+`ModelTheory/CountableSaturatedExtension.lean` is adapted.
 
 The approved November 17 extraction adds generic mathematics from126 source files
 (125 whole files and the generic core of one mixed file). Together with the
@@ -82,3 +90,18 @@ initial106 modules,232 modules retain their original public names and hypotheses
 The two paper relation wrappers in the mixed file remain in Fubini-theorems.
 New families include field theory, valuations, algebraic geometry, topology,
 quotients and rewriting; the package still depends only on Mathlib.
+
+The November 22 extraction (batch `2026-11-22-tier1`) adds 149 modules from
+ACVF-QE, Fubini-theorems, diamond-integral, integration-in-ACVF,
+special-transformations and free-markov: 148 whole files and the generic core
+of `ACVF-QE/Proofs/MarkerBridge.lean`. Public names, namespaces and hypotheses
+are unchanged; each moved declaration's full type and axioms were compared with
+the original, compiled in its source repository. New families: finite-order
+controllers, Grothendieck-completion functoriality, definable families and named
+maps, torus characters, Euler germs, graded actions and scalar extension,
+transcendence degree and Krull dimension, rational polyhedra and lattice-point
+series, definable Ax–Grothendieck, ACF quantifier elimination, countable
+saturation and the saturated-model QE criterion, the Grothendieck ring of
+ACF-definable sets, and strict symmetric monoidal and Markov categories. The
+source repositories still hold their own copies until their consumers are
+migrated.
